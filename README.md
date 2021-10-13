@@ -7,12 +7,6 @@ The site has three logical blocks - Personal block (the main one, by value, sinc
 All available blocks are displayed on the big screen (for users with 'superuser' privileges there are three blocks available, and for all other users - only two). The inscription in the header of the block informs us about their logical affiliation.
 On the small screen, the labels are transformed into vertically arranged buttons, with the help of which the user can navigate through the logical blocks.
 
-*Why File Portal?*
-
-I decided to create a site for storing and publishing favorite files, as I enjoy to collect media files myself. In addition, at the time of deciding on the direction of the project, I did not have any significant experience working with files.
-The idea of the site is to store favorite files and allow free access to them and view these files in the appropriate format. The function of sharing files with other users, added to be able to increase personal media bank.
-Strict file moderation will prevent the common line from clogging up with with inappropriate files content. However, in the personal box, user files are not checked.
-
 In development, I used the capabilities of Django, React, Redux, Bootstrap and Webpack.
 
 ### Description of the project
@@ -120,7 +114,7 @@ Also, the components include reusable functions saved in the collection_func.js 
 ### Installation and configuration
 
 1. Clone the git repository
-2. Go to the zm412 folder and enter the instructions
+2. Go to the projeft folder and enter the instructions
 ```
     python3 -m venv venv
     source venv / bin / activate
@@ -134,6 +128,6 @@ If necessary, you can rebuild the project with the
 ```
 npm run dev
 ```
-(in the zm412 / capstone folder)  
+(in the  / capstone folder)  
 
 *Any questions, please refer to my email zm412412@gmail.com*
