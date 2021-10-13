@@ -1,0 +1,11 @@
+{% extends "capstone/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+    <div id="root"></div>
+
+    <script src="{% static 'capstone/main.js' %}?{% now "U" %}"></script>
+
+
+{% endblock %}
